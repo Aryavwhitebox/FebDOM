@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Attributes</title>
+</head>
+<body>
+    <div  id="id1" class="hello" data-game="game1" data-player="player1">im first element
+    </div>
+    <script>
+first=document.getElementById("id1")
+console.log(first)
+a=first.getAttribute("class")
+console.log(a)
+b=first.hasAttribute("class")
+console.log(b)
+
+// first.setAttribute("class","new")
+
+// first.removeAttribute("class")
+
+console.log(first.dataset)
+console.log(first.dataset.game)
+console.log(first.dataset.player)
+
+</script>
+</body>
+</html>
